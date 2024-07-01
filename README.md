@@ -21,18 +21,28 @@ Here you can query new data to be parsed and loaded to the database.
 
 
 To do so, press the ``New parse query`` button,
+
+
 ![new_parse_query](https://github.com/Neesowork/application/assets/146841763/00df83b9-48be-4787-b117-d670fa286cf9)
 
 select which type of data to parse (``Vacancies`` or ``Resumes``)
+
+
 ![data_to_parse](https://github.com/Neesowork/application/assets/146841763/31e541cc-8d18-4195-980d-318e125b394e)
 
 and optionally set some search parameters (e.g. ``Search for``, ``Work experience``, ``Schedule`` etc.);
+
+
 ![choose_parse_parameters](https://github.com/Neesowork/application/assets/146841763/56a26a5f-bdf3-4272-b39d-3677e5fc50b9)
 
 press the ``Send`` button to send the request:
+
+
 ![press_send_btn](https://github.com/Neesowork/application/assets/146841763/2c2f85c7-edb3-4e63-958a-b4df14caeaa7)
 
 You can check your request's status at the bottom right of the page:
+
+
 ![request_status](https://github.com/Neesowork/application/assets/146841763/21a6ac68-eb89-49ca-abe7-d4ba4803b964)
 
 
@@ -41,10 +51,14 @@ Mind that ``Resumes`` usually take longer to load than ``Vacancies``, and the pr
 If you see ``Request completed`` notification it means that the data was parsed successfully and will soon be loaded in the database.
 
 Preview of the fetched data can then be viewed for convenience (notice how two types of requests are split to the corresponding tables).
+
+
 ![lookup_fetched_data](https://github.com/Neesowork/application/assets/146841763/55b50d8b-8ad4-447c-b231-ff8d305fad99)
 
 
 When you are ready to work with the database, navigate to its page by pressing the corresponding label next to "Neesowork" text at the top of the page:
+
+
 ![to_database_page](https://github.com/Neesowork/application/assets/146841763/5241ed3e-cc8d-4893-ba19-97a45ddaa49f)
 
 ### Database page
@@ -57,12 +71,18 @@ You can scroll down indefinetily to load more and more rows of the tables until 
 
 
 When you are ready to apply some filters to the data, press the corresponding icon at the top of the page to open ``Filters`` menu:
+
+
 ![to_manage_filters](https://github.com/Neesowork/application/assets/146841763/984c9932-2f80-4910-80c1-9fd08eda8257)
 
-*Filters* are a quite flexible tool to filter database data to your liking. 
+*Filters* are a quite flexible tool to filter database data to your liking.
+
+
 ![filters_menu](https://github.com/Neesowork/application/assets/146841763/0c8d6246-0d89-4188-a0d1-47c490e84ff7)
 
 You can add a filter to ``Vacancies`` and/or ``Resumes`` table/s by pressing ``New filter`` button.
+
+
 ![filter](https://github.com/Neesowork/application/assets/146841763/ab5c98a7-7317-4a4d-b40e-d686942a00ae)
 
 Each filter consists of a required ``Filter for key`` field (which column it should be applied to),
@@ -93,6 +113,8 @@ If several field are being ordered, the priority is from top to the bottom.
 
 
 For instance, the following two filters can be read as:
+
+
 ![filter_example](https://github.com/Neesowork/application/assets/146841763/bf18e642-ccb3-4fc7-a0a4-ff15afa7c6f0)
 > Find all rows where area starts with an 'А' (and put them in an alphabetical order) and then sort the salaries in descending order (not breaking the alphabetical sorting)
 
@@ -100,6 +122,8 @@ Numerial filtering is not supported here.
 
 
 When you've set all the filters you wanted, press ``Apply``:
+
+
 ![filters_apply](https://github.com/Neesowork/application/assets/146841763/94560a9b-2e02-468a-883c-4b97b78ce802)
 
 The data displayed in the tabs ``Resumes`` and ``Vacancies`` is now filtered.
