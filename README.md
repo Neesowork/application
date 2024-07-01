@@ -82,8 +82,6 @@ You can add a filter to ``Vacancies`` and/or ``Resumes`` table/s by pressing ``A
 ![filters_menu](https://github.com/Neesowork/application/assets/146841763/0c8d6246-0d89-4188-a0d1-47c490e84ff7)
 
 
-![filter](https://github.com/Neesowork/application/assets/146841763/ab5c98a7-7317-4a4d-b40e-d686942a00ae)
-
 Each filter consists of a required ``Filter for key`` field (which column it should be applied to),
 
 
@@ -97,6 +95,9 @@ Each filter consists of a required ``Filter for key`` field (which column it sho
 
 
 and ``Remove filter`` button (removes the filter above itself).
+
+
+![filter](https://github.com/Neesowork/application/assets/146841763/ab5c98a7-7317-4a4d-b40e-d686942a00ae)
 
 
 Filters are stacked on top of each other and execute internally from top to the bottom as well;
