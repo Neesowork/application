@@ -76,11 +76,10 @@ When you are ready to apply some filters to the data, press the corresponding ic
 ![to_manage_filters](https://github.com/Neesowork/application/assets/146841763/984c9932-2f80-4910-80c1-9fd08eda8257)
 
 *Filters* are a quite flexible tool to filter database data to your liking.
+You can add a filter to ``Vacancies`` and/or ``Resumes`` table/s by pressing ``Add filter`` button.
 
 
 ![filters_menu](https://github.com/Neesowork/application/assets/146841763/0c8d6246-0d89-4188-a0d1-47c490e84ff7)
-
-You can add a filter to ``Vacancies`` and/or ``Resumes`` table/s by pressing ``New filter`` button.
 
 
 ![filter](https://github.com/Neesowork/application/assets/146841763/ab5c98a7-7317-4a4d-b40e-d686942a00ae)
