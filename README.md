@@ -6,10 +6,14 @@ This project is comprised of the **MySQL database**, **python backend** and **ht
 
 ## How to launch
 In order to launch the whole project, first clone the repository along with its submodules:
-> git clone --recurse-submodules https://github.com/Neesowork/application.git
+```
+git clone --recurse-submodules https://github.com/Neesowork/application.git
+```
 
 Then, launch the whole Dockerized system with:
-> docker compose up
+```
+docker compose up
+```
 And navigate to ``localhost`` in your browser
 
 You may launch different parts of the project independently as well, using any *http server* for the frontend, *uvicorn* for backend and *hosting MySQL database* your own way.
