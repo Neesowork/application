@@ -122,7 +122,7 @@ For instance, the following two filters can be read as:
 ![filter_example](https://github.com/Neesowork/application/assets/146841763/bf18e642-ccb3-4fc7-a0a4-ff15afa7c6f0)
 > Find all rows where area starts with an 'А' (and put them in an alphabetical order) and then sort the salaries in descending order (not breaking the alphabetical sorting)
 
-Numerial filtering is not supported here.
+Numerial filtering is not supported here as well as filters for resumes' JSON stored data.
 
 
 When you've set all the filters you wanted, press ``Apply``:
